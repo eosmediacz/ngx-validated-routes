@@ -1,11 +1,8 @@
 import {InjectionToken, ModuleWithProviders, NgModule} from '@angular/core';
 import {ValidatedRoutesConfig} from './router-data-types';
 import {ValidatedRouteGuard} from './validated-route-guard.service';
+import { validatedRoutesConfigService } from './validated-routes-config-service-token';
 
-/**
- * Defines Injection token of `ValidatedRoutesConfig` for configuring module
- */
-export const validatedRoutesConfigService = new InjectionToken<ValidatedRoutesConfig>('ValidatedRoutesConfig');
 
 /**
  * @usageNotes

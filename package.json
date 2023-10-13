@@ -1,12 +1,13 @@
 {
   "name": "ngx-validated-routes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Library for validating Angular Route parameters",
   "scripts": {
     "ng": "ng",
     "start": "ng serve ngx-validated-routes",
     "copy:readme": "copyfiles ./README.md ./dist/ngx-validated-routes",
     "build": "ng build ngx-validated-routes --prod && npm run copy:readme",
+    "publish-release": "cd dist/ngx-validated-routes && npm publish --registry=https://npm.eos.cz --ignore-scripts && cd ../../",
     "test": "ng test ngx-validated-routes",
     "lint": "ng lint ngx-validated-routes",
     "e2e": "ng e2e ngx-validated-routes"

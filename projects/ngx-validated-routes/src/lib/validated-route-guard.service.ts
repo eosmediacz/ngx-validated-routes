@@ -2,7 +2,7 @@ import {Inject, Injectable} from '@angular/core';
 import {CanActivateChild, ActivatedRouteSnapshot, ParamMap, Router} from '@angular/router';
 import {ValidatedRouteData, ValidatedRoutesConfig} from './router-data-types';
 import {RouteParamValidator} from './route-param-validator';
-import {validatedRoutesConfigService} from './validated-routes.module';
+import { validatedRoutesConfigService } from './validated-routes-config-service-token';
 
 @Injectable()
 export class ValidatedRouteGuard implements CanActivateChild {

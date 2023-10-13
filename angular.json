@@ -42,6 +42,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngx-validated-routes"
+    }
+  },
+  "defaultProject": "ngx-validated-routes",
+  "cli": {
+    "analytics": false
+  }
 }
